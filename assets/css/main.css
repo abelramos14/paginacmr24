@@ -1,0 +1,1806 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: "Sarabun", Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+    color: #000000;
+    background-color: #fff;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+}
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+.align-items-end-1{
+    align-items: end;
+}
+#img_principal{
+    height: 40px;
+}
+.carousel-item{
+    height: calc(100vh - 97px);
+}
+.carousel-item img{
+    height: calc(100vh - 97px);
+}
+.px-6{
+    padding-right:4rem!important;
+    padding-left:4rem!important
+}
+.pe-4-1 {
+    padding-right: 1.5rem!important;
+}
+#numero-principal{
+    font-family: "fraunces", Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: none;
+    color: #3273f5;
+    font-weight: 900;
+    font-size: 6rem;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+}
+#carousel-principal{
+    left: auto !important;
+    right: auto;
+    margin: 0px !important;
+    bottom: auto !important;
+    width: 15px;
+}
+.btn-modificado{
+    width: 15px;
+    height: 15px;
+
+}
+#carousel-principal .active{
+    background-color: #3273f5 !important;
+    border: 1px solid #3273f5 !important;
+
+}
+#carousel-principal button{
+    border: 1px solid #3273f5 !important;
+
+}
+.color-azul-32{
+    color: #3273f5;
+}
+.color-azul-02{
+    color: #020c3c;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-800{
+    font-weight: 800;
+}
+.btn-border{
+    background: #fff;
+    color:#3273f5;
+    border: 1px solid #3273f5;
+    min-width: 100%;
+}
+.mt-6-1 {
+    margin-top: 4rem !important;
+}
+.mt-6{
+    margin-top: 4rem !important;
+}
+.mt-7{
+    margin-top: 5rem !important;
+}
+.mt-8{
+    margin-top: 6rem !important;
+}
+.mt-9{
+    margin-top: 7rem !important;
+}
+.mt-5-576{
+    margin-top: 3rem !important;
+}
+.mt-clientes{
+    margin-top: 3rem !important;
+}
+.ml-30{
+    margin-left: 30%;
+}
+.mb-5-1{
+    margin-bottom: 3rem !important;
+}
+.mb-6{
+    margin-bottom: 4rem !important;
+}
+.mb-7{
+    margin-bottom: 5rem !important;
+}
+.mb-8{
+    margin-bottom: 6rem !important;
+}
+.mb-9{
+    margin-bottom: 7rem !important;
+}
+.img-derecha{
+    position:absolute;
+    width: 53%; 
+    height: 100%; 
+    right: 0; 
+    top: 0; 
+    background-image: url('../image/Recurso 2.png'); 
+    background-size: cover; 
+    background-position: center;
+}
+.img-izquierda{
+    position: absolute; 
+    width: 53%; 
+    height: 100vh; 
+    left: 0; 
+    top: 0; 
+    background-image: url('../image/Recurso 3.png'); 
+    background-size: cover; 
+    background-position: top left;
+}
+.h-45{
+    min-height: 47.2%;
+}
+.mt-8{
+    margin-top: 5%;
+}
+.vh-6{
+    height: 6vh;
+}
+.vh-10{
+    height: 10vh;
+}
+.vh-40{
+    height: 40vh !important;
+}
+.vh-100{
+    height: 100vh;
+    
+}
+.vh-100-1 {
+    height: 100vh;
+    
+}
+.bg-azul-primario{
+    background-color:#020c3c;
+}
+.division-azul{
+    width: 20%;
+    height: 3px;
+    background-color: #3273f5;
+    margin-top: 15px;
+}
+.bg-azul-ccd{
+    background-color: #ccdcfc;
+}
+.img-contacto{
+    height: 50px;
+    width: 50px;
+
+}
+.text-black{
+    color: #000000;
+}
+.fs-7{
+    font-size: 0.8rem!important;
+}
+.fs-3 {
+    font-size: calc(1.3rem + .6vw)!important;
+}
+#div-footer{
+    border-top: 1px solid #3273f5;
+}
+#logo-blanco{
+    height: 21px;
+
+}
+#ul-pie{
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+#ul-pie li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+#img-global{
+    height: 60px;
+}
+#img-IMCP{
+    height: 45px;
+}
+.fs-descripcion{
+    font-size: 15px ;
+}
+.fs-12{
+    font-size: 12px ;
+}
+.fs-titulos{
+    font-size: 55px;
+
+}
+.fs-text{
+    font-size: 20px;
+}
+.fs-text-22{
+    font-size: 22px;
+}
+.fs-requisitos{
+    font-size: 18px;
+}
+.nav-3{
+    font-size: 12px;
+}
+.nav-3 i{
+    display: none;
+}
+.nav-3:hover i{
+    display: inline;
+}
+.btn-slider{
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 100px;
+    color: #3273f5;
+
+}
+.d-flex-1{
+    display: flex;
+}
+.d-flex-2{
+    display: flex;
+}
+#div-footer a{
+    margin-bottom: 5px !important;
+}
+/*seccion soluciones*/
+
+/*animacion desglose servicios cmr*/
+.image-soluciones{
+    background-image: url('../image/soluciones/Soluciones.jpeg'); 
+    height: 50vh;
+    background-size: cover; 
+    background-position: center;
+
+}
+.soluciones-desglose i{
+    visibility: hidden;
+    opacity: 0;
+}
+.servicios-auditoria i{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#img-auditoria {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.servicios-asesoria i{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#img-asesoria {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.servicios-consultoria i{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#img-consultoria {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.servicios-infra i{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#img-infra {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.servicios-creatividad i{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#img-creatividad {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.active-soluciones{
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.fs-titulos-acordeon{
+    font-size: 40px;
+}
+.fs-titulos-30{
+    font-size: 25px;
+}
+.fs-titulos-cliente{
+    font-size: 55px;
+}
+.accordion-button{
+    line-height: 1;
+    padding-top: 0.80rem;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color:#020c3c;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-button::after {
+    background-image: url('../image/soluciones/Mas.svg'); 
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../image/soluciones/Menos.svg');
+
+}
+#segmento-soluciones{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.bg-azul-deg{
+    background: rgb(239,244,254);
+    background: linear-gradient(90deg, rgba(239,244,254,1) 0%, rgba(204,220,252,1) 100%);
+}
+a:hover {
+    color: #3273f5 !important;
+}
+.active-auditoria, .active-consultoria, .active-asesoria, .active-infra, .active-creatividad{
+    color: #3273f5;
+}
+.active-auditoria i, .active-consultoria i, .active-asesoria i, .active-infra i, .active-creatividad i{
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: visibility 0s, opacity 0.5s linear;
+    color: #3273f5;
+}
+#img-auditoria, #img-consultoria, #img-asesoria, #img-infra, #img-creatividad{
+    min-height: 35vh;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+.container_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -30%;
+    bottom: -100%;
+    rotate: 150deg;
+    background-image: 
+      linear-gradient(
+      to bottom,
+      #ccdcfc,
+      #ccdcfc
+    );
+  }
+
+
+
+  /*seccion asesoria gubernamental*/
+
+.image-gubernamental{
+    background-image: url('../image/soluciones/gubernamental.png'); 
+    height: 50vh;
+    background-size: cover; 
+    background-position: center;  
+}
+
+.img-gubernamental{
+    background-image: url('../image/colaboradores/yesenia.png');
+}
+
+
+
+/*seccion asesoria fiscal*/
+.image-fiscal{
+    background-image: url('../image/soluciones/AsesoriaFiscal.png'); 
+    height: 50vh;
+    background-size: cover; 
+    background-position: center;  
+}
+.titulos-fiscal{
+    font-size: 40px;
+}
+.titulos-nosotros{
+    font-size: 34px;
+}
+.nombre-directivos{
+    font-size: 34px;
+}
+
+.fs-fiscal-text{
+    font-size: 18px;
+}
+
+.cuadro-azul-fiscal{
+    background: #ebf1fe;
+    
+}
+.img-fiscal{
+    background-image: url('../image/colaboradores/keyri.png');
+}
+
+
+/*seccion servicios auditoria*/
+.image-auditoria{
+    background-image: url('../image/soluciones/auditoria.png'); 
+    height: 50vh;
+    background-size: cover; 
+    background-position: center;  
+}
+
+.img-asesoramiento-3{
+    border-radius: 50%;
+    width: 15vh;
+    height: 15vh;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.img-auditoria{
+    background-image: url('../image/colaboradores/alejandro.png'); 
+}
+.icon-auditoria i {
+    width: 25px;
+    font-size: 18px;  
+}
+.icon-auditoria a, .icon-auditoria a:hover {
+    color: #000000 !important;
+}
+.text-asesoramiento{
+    font-size: 15px;
+}
+
+/*seccion creatividad e innovacion*/
+.image-creatividad{
+    background-image: url('../image/soluciones/creatividad.png'); 
+    height: 50vh;
+    background-size: cover; 
+    background-position: center;  
+}
+
+.img-creatividad{
+    background-image: url('../image/colaboradores/marcelo.png'); 
+}
+
+/*seccion infraestructura*/
+.image-infraestructura{
+    background-image: url('../image/soluciones/infraestructura.png'); 
+    height: 50vh;
+    background-size: cover; 
+    background-position: center;  
+}
+.div-obscuro{
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-infra{
+    background-image: url('../image/colaboradores/hitai.png'); 
+}
+
+/*seccion integrate con nosotros*/
+
+
+.img-integrate{
+    background-image: url('../image/integrate/Integrate.png'); 
+    height: 50vh;
+    background-size: cover;
+    background-position: center bottom;
+}
+#img-vacantes{
+    min-height: 35vh;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../image/integrate/Vacantes.png');
+
+}
+.container_img-vac{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -30%;
+    bottom: -90%;
+    rotate: 160deg;
+    background-image: 
+      linear-gradient(
+      to bottom,
+      #ccdcfc,
+      #ccdcfc
+    );
+  }
+  .pb-c5{
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
+  }
+  .pb-c10{
+    padding-top: calc(var(--bs-gutter-x) * 1); 
+  }
+  .pt-c5{
+    padding-top: calc(var(--bs-gutter-x) * .5);
+  }
+  .bt-azul-32{
+    border-top: solid 1px #3273f5 ;
+  }
+  .icon-integrate{
+    background-color: #3273f5;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #iconos-integrate a:hover{
+    color: #fff !important;
+  }
+
+  /*seccion practica y servicios profesionales*/
+
+.img-practica{
+    background-image: url('../image/integrate/Practicas.png'); 
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+}
+.img-desarrollo{
+    background-image: url('../image/integrate/Desarrollo-Profesional.png'); 
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+}
+
+
+/*seccion desarrollo profesional*/
+.img-edu{
+    position: absolute; 
+    width: 53%; 
+    height: 40vh; 
+    left: 0; 
+    top: 0; 
+    background-image: url('../image/integrate/educacion.png'); 
+    background-size: cover; 
+    background-position: top left;
+}
+.img-material{
+    position:absolute;
+    width: 53%; 
+    height: 40vh; 
+    right: 0; 
+    top: 0; 
+    background-image: url('../image/integrate/material.png');
+    background-size: cover; 
+    background-position: center;
+}
+.img-social{
+    position: absolute; 
+    width: 53%; 
+    height: 40vh; 
+    left: 0; 
+    top: 0; 
+    background-image: url('../image/integrate/social.png'); 
+    background-size: cover; 
+    background-position: top left;
+}
+.img-valores{
+    position:absolute;
+    width: 53%; 
+    height: 40vh; 
+    right: 0; 
+    top: 0; 
+    background-image: url('../image/integrate/valores.png');
+    background-size: cover; 
+    background-position: center;
+}
+.img-logros{
+    position: absolute; 
+    width: 53%; 
+    height: 40vh; 
+    left: 0; 
+    top: 0; 
+    background-image: url('../image/integrate/logros.png'); 
+    background-size: cover; 
+    background-position: top left;
+}
+.btn-desarrollo a{
+    min-width: 60%;
+    border: solid 1px #3273f5;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/*seccion vacante para asesor fiscal*/
+.img-vac-fis{
+    position:absolute;
+    width: 53%; 
+    height: 100%; 
+    right: 0; 
+    top: 0; 
+    background-image: url('../image/integrate/vacante-fiscal.png');
+    background-size: cover; 
+    background-position: center;
+}
+ul li::marker{
+    color: #0e266a;
+    font-size: 1rem;
+}
+
+label.checkbox {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  label.checkbox span.indicator{
+      height: 20px;
+      min-width: 20px;
+      margin-right: 10px;
+      border-radius: 3px;
+      background-color: #d4d7dc;
+      border: 2px solid #d4d7dc;
+  }
+  label.checkbox.blue {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  label.checkbox.blue input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+  }
+  label.checkbox.blue input[type=checkbox]:focus ~ span.indicator {
+    border: 2px solid #aab0b9;
+  }
+  label.checkbox.blue input[type=checkbox]:focus:checked ~ span.indicator {
+    border: 2px solid #265b81;
+  }
+
+  label.checkbox.blue input[type=checkbox]:checked ~ span.indicator {
+    color: #ffffff;
+    background: #3273f5 url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHdpZHRoPSIxMiIgaGVpZ2h0PSI5IiB2aWV3Qm94PSIwIDAgMTIgOSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPHBhdGggZD0iTTQuNTc1IDguOTc3cy0uNDA0LS4wMDctLjUzNi0uMTY1TC4wNTcgNS42NGwuODI5LTEuMjI3TDQuNDcgNy4yNjggMTAuOTIxLjA4NmwuOTIzIDEuMTAzLTYuODYzIDcuNjRjLS4xMzQtLjAwMy0uNDA2LjE0OC0uNDA2LjE0OHoiIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPg0KPC9zdmc+) 50% 40% no-repeat;
+    border: 2px solid #265b81;
+  }
+
+  label.checkbox.blue input[type=checkbox]:checked ~ span.text-politica-priv {
+      color: #2659c7;
+  }
+
+
+  input[type="file"]#cv {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+
+label[for="cv"] {
+    color: #000;
+    background-color: #ffffff;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 5px 20px !important;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    border: solid 1px #3273f5;
+}
+
+.archivo-select {
+    background-color: #2659c7!important;
+    color: #fff !important;
+    border: solid 1px #020c3c !important;
+}
+
+.btn-submit{
+    background-color: #fff;
+    border: solid 1px #3273f5;
+    padding: 5px 40px !important;
+    border-radius: 5px;
+
+}
+
+
+/*seccion vacante ingeniero civil*/
+.img-vac-civil{
+    position:absolute;
+    width: 53%; 
+    height: 100%; 
+    right: 0; 
+    top: 0; 
+    background-image: url('../image/integrate/vacante-civil.png');
+    background-size: cover; 
+    background-position: center;
+}
+
+/*seccion nuestros clientes*/
+.img-servi-calidad{ 
+    height: 60vh; 
+    background-image: url('../image/nosotros/cliente-calidad.png');
+    background-size: cover; 
+    background-position: top center;
+    margin-top: 20px;    
+}
+.img-izq-calidad{
+    height: 100%; 
+    background-image: url('../image/nosotros/cliente-izq-calidad.png'); 
+    background-size: cover; 
+    background-position: top right;
+}
+.columnas{
+    column-count: 3; /* número de columnas */
+    column-gap: 50px; /* ancho de columnas */
+}
+
+
+/*seccion formato de solicitud*/
+.formato-soli{
+    border-bottom:solid 2px #020c3c !important; 
+    margin-top: 30px;
+    border: none;
+    outline: none;
+}
+.border-soli{
+    border:solid 2px #020c3c;
+    border-radius: 10px ;
+}
+.btn-nuestras-solu{
+    border:solid 2px #020c3c;
+    border-radius: 5px ;
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.formato-soli:focus{
+    border: none;
+
+}
+.formato-cuadro{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*seccion nuestros profesionales*/
+.img-profesionales{
+    
+    height: 120px;
+    background-size: cover; 
+    background-position: center;
+}
+.nombre-colaborador{
+    font-size: 1.5rem;
+}
+.cargo-colaborador{
+    font-size: 1rem;
+}
+.icon-profesionales{
+    
+}
+.iconos-profesionales a:hover img{
+    background-color: #3273f5;
+    
+}
+.icon-profesional{
+    background: #929292; 
+    width: 25px; 
+    height: 25px; 
+    padding: 2px; 
+    border-radius: 50%
+}
+.mb-profesionales{
+    margin-bottom: 20px;
+}
+.br-991{
+    display: none;
+}
+/*seccion oficina oficial*/
+.iframe-map {
+    width: 100%;
+    padding-left: 0%;
+    height: 50vh;
+}
+.icono-oficial div{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #3273f5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.text-link-contacto{
+    color: #000000;
+}
+.text-link-contacto:hover{
+    color: #3273f5 !important;
+}
+/*seccion nosotros*/
+.image-nosotros{
+    background-image: url('../image/nosotros/Nosotros.png'); 
+    height: 50vh;
+    background-size: cover; 
+    background-position: center;
+}
+.titulos-fiscal{
+    font-size: 40px;
+}
+.btn-nosotros{
+    background: #ffffff;
+    border: solid 1px #3273f5;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #000000;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.img-directivos{
+    width: 100%;
+}
+.img-resp-1{
+    background-image: url('../image/nosotros/Responsabilidad.png'); 
+    background-size: cover; 
+    background-position: center center;
+    height: 100%;
+}
+.img-resp-2{
+    background-image: url('../image/nosotros/Social.png'); 
+    background-size: cover; 
+    background-position: center center;
+    height: 80%;
+}
+.btn-resp{
+    background: #ffffff;
+    border: solid 1px #3273f5;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #000000;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.btn-espacio{
+    height: 20%;
+}
+.icon-cult{
+    height: 60px;
+
+}
+.btn-cult{
+    background: #ffffff;
+    border: solid 1px #3273f5;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #000000;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.img-alianza{
+    width: 250px;
+}
+.div-logos-alianza{
+    height: 78px;
+}
+.img-identidad{
+    width: 100%;
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .eti-cv-1 {
+        display: inline-block;
+    }
+
+    .eti-cv-2 {
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    
+    .eti-cv-1 {
+        display: none;
+    }
+
+    .eti-cv-2 {
+        display: inline-block;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 401px){
+    .eti-cv-1 {
+        display: inline-block;
+    }
+
+    .eti-cv-2 {
+        display: none;
+    }	
+}
+
+@media (max-width: 400px){
+    .eti-cv-1 {
+        display: none;
+    }
+
+    .eti-cv-2 {
+        display: inline-block;
+    }
+}
+
+
+
+
+@media  (min-width:992px) and (max-width:1199px){
+    .titulos-fiscal{
+        font-size: 35px;
+    }
+
+
+    /*seccion vacante para asesor fiscal*/
+    .eti-cv-1 {
+        display: none;
+    }
+
+    .eti-cv-2 {
+        display: inline-block;
+    }
+    .img-vac-fis{
+        background-image: url('../image/integrate/vacante-fiscal-1.png');
+        background-position: center left;
+    }
+
+   /*seccion vacante ingeniero civil*/
+    
+   
+}   
+
+
+
+
+
+
+@media  (min-width:768px) and (max-width:991px){
+    .fs-text{
+        font-size: 18px;
+    }
+    .fs-titulos{
+        font-size: 50px;
+    
+    } 
+    .btn-slider{
+        
+        font-size: 18px;
+        padding: 5px 80px;
+    }
+    .img-derecha{ 
+        background-image: url('../image/Recurso 2-1.png'); 
+        background-position: right;
+    } 
+    .img-izquierda{
+        background-position: top right;
+        height: 70vh;
+    }
+    .vh-100-1 {
+        height: 70vh;
+        
+    }
+    .d-flex-1{
+        display: block;
+    }
+    .ul-pie{
+        margin-bottom: 1rem!important;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .align-items-end-1{
+        align-items: center;
+    }
+    #img_principal{
+        height: 45px;
+    }
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    .navbar-toggler {
+        padding: .15rem .45rem;
+        border-color: #3273f5!important;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url('../image/hamburguer.png')!important;
+    }
+    
+
+
+    /*seccion soluciones*/
+
+    #segmento-soluciones{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .fs-titulos-acordeon{
+        font-size: 35px;
+    }
+    .fs-titulos-30{
+        font-size: 23px;
+    }
+
+
+    /*seccion asesoria fiscal*/
+    .titulos-fiscal{
+        font-size: 28px;
+    } 
+
+
+    /*seccion auditoria*/
+
+
+    
+    .icon-auditoria {
+        margin-bottom: 1rem;
+    }
+
+    /*seccion desarrollo profesional*/
+    .btn-desarrollo a{
+        min-width: 100%;
+    }
+    
+    /*seccion vacante para asesor fiscal*/
+    .img-vac-fis{
+        background-image: url('../image/integrate/vacante-fiscal-1.png');
+        background-position: center left;
+    }
+    .fs-requisitos{
+        font-size: 15px;
+    }
+
+    /*seccion vacante ingeniero civil*/
+    
+
+    /*seccion nuestros clientes*/
+
+    .img-izq-calidad{
+        height: 50vh; 
+        background-image: url('../image/nosotros/cliente-izq-calidad.png'); 
+        background-size: cover; 
+        background-position: top right;
+        margin-bottom: 20px;
+    }
+    .fs-titulos-cliente{
+        font-size: 45px;
+    }
+
+
+
+}
+
+
+
+
+
+@media  (min-width:576px) and (max-width:767px){
+    .fs-5{
+    font-size: 0.85rem !important;
+    }
+    .fs-text{
+        font-size: 16px;
+    }
+    .fs-titulos{
+        font-size: 40px;
+
+    } 
+    .btn-slider{
+        
+        font-size: 18px;
+        padding: 5px 80px;
+    }
+    .img-derecha{ 
+        background-image: url('../image/Recurso 2-2.png'); 
+        background-position: right;
+        width: 50%;
+    } 
+    .img-izquierda{
+        background-position: top right;
+        height: 70vh;
+    }
+    .vh-100-1 {
+        height: 70vh;
+        
+    }
+    .d-flex-1{
+        display: block;
+    }
+    .ul-pie{
+        margin-bottom: 1rem!important;
+        text-align: center;
+        margin-top: 0.5rem;
+    }  
+    .d-none-576{
+        display: none;
+        
+    } 
+    #img_principal{
+        height: 35px;
+    }
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    .navbar-toggler {
+        padding: .15rem .45rem;
+        border-color: #3273f5!important;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url('../image/hamburguer.png')!important;
+    }
+    .align-items-end-1{
+        align-items: center;
+    }
+    .mt-6-1 {
+        margin-top: 2rem !important;
+    }
+    .mb-5-1{
+        margin-bottom: 2rem !important;
+    }
+    .btn-border{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .text-justify-576{
+        text-align: justify !important;
+    }
+    .text-center-576{
+        text-align: center !important;
+    }
+    .div-bottom{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .img-contacto{
+        height: 40px;
+        width: 40px;
+    
+    }
+    .fs-3 {
+        font-size: 1.3rem!important;
+    }
+    .fs-7{
+        font-size: 0.7rem!important;
+    }
+    #div-footer a{
+        line-height: 1.15;
+    }
+
+
+
+    /*seccion soluciones*/
+
+
+    #segmento-soluciones{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .fs-titulos-acordeon{
+        font-size: 30px;
+    }
+    .fs-titulos-30{
+        font-size: 20px;
+    }
+
+
+    /*seccion asesoria fiscal*/
+    .margen-fiscal{
+        margin-top: .5rem !important;
+    }
+    .titulos-fiscal{
+        font-size: 28px;
+    }
+    /*seccion integrate con nosotros*/
+    
+    /*seccion desarrollo profesional*/
+    .btn-desarrollo a{
+        min-width: 100%;
+    }
+    
+    .img-edu{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/educacion.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .img-material{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/material.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .img-social{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/social.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .img-valores{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/valores.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .img-logros{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/logros.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .vh-40{
+        height: auto !important;
+    }
+
+    /*seccion vacante para asesor fiscal*/
+    .img-vac-fis{
+        position:static;
+        width: 100%; 
+        height: 300px; 
+        background-image: url('../image/integrate/vacante-fiscal.png');
+        background-size: cover; 
+        background-position: center;
+        margin-top: 15px;
+    }
+    .ml-archivo{
+        margin-left: 10%;
+    }
+
+    /*seccion vacante ingeniero civil*/
+    .img-vac-civil{
+        position:static;
+        width: 100%; 
+        height: 300px; 
+        background-image: url('../image/integrate/vacante-civil.png');
+        background-size: cover; 
+        background-position: center;
+        margin-top: 15px;
+    }
+
+    /*seccion nuestros clientes*/
+    .fs-titulos-cliente{
+        font-size: 35px;
+    }
+    .img-servi-calidad{ 
+        height: 60vh; 
+        background-image: url('../image/nosotros/cliente-calidad-1.png');
+        background-size: cover; 
+        background-position: center;
+        margin-top: 20px;    
+    }
+    .img-izq-calidad{
+        height: 50vh; 
+        background-image: url('../image/nosotros/cliente-izq-calidad.png'); 
+        background-size: cover; 
+        background-position: top right;
+        margin-bottom: 20px;
+    }
+    .columnas{
+        column-count: 2; /* número de columnas */
+        column-gap: 50px; /* ancho de columnas */
+        
+    }
+    /*seccion nosotros*/
+    .img-resp-1{
+        height: 50vh;
+        margin-bottom: 1rem;
+    }
+    .img-resp-2{
+        height: 50vh;
+        margin-top: 1rem;
+    }
+    .mt-5-576{
+        margin-top: 3rem;
+    }
+    .mt-4-576{
+        margin-top: 2.5rem !important;
+    }
+    .mt-3-576{
+        margin-top: 2rem;
+    }
+    .btn-espacio{
+        height: 15%;
+    }
+    
+    
+
+    
+    
+
+
+
+}
+@media (max-width:767px){
+    .mt-5-576{
+        margin-top: 5rem !important;
+    }
+/*seccion vacante para asesor fiscal*/
+    .br-none-576 {
+        display: none;
+    }
+}
+@media (min-width:576px) and (max-width:991px) {
+    .br-991{
+        display: block;
+    }
+    .ml-30{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+@media (max-width:575px){
+    .fs-5{
+    font-size: 0.85rem !important;
+    }
+    .fs-text{
+        font-size: 14px;
+    }
+    .fs-titulos{
+        font-size: 35px;
+        
+
+    } 
+    .btn-slider{
+        font-size: 18px;
+        padding: 5px 40px;
+
+    }
+    .img-derecha{ 
+        background-image: url('../image/Recurso 2-2.png'); 
+        background-position: right;
+        width: 50%;
+    } 
+    .img-izquierda{
+        background-position: top right;
+        
+    }
+    .vh-100-1 {
+        height: auto;
+        
+    }
+    .d-flex-1{
+        display: block;
+    }
+    .ul-pie{
+        margin-bottom: 1rem!important;
+        text-align: center;
+        margin-top: 0.5rem;
+    } 
+    .ul-pie li{
+        display: block!important;
+        margin-right: 0px !important; 
+    }  
+    .ul-pie li img{
+        margin-bottom: 0.5rem;
+    } 
+    .d-none-576{
+        display: none;
+        
+    } 
+    #img_principal{
+        height: 35px;
+    }
+    .navbar-toggler-icon {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    .navbar-toggler {
+        padding: .15rem .45rem;
+        border-color: #3273f5!important;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url('../image/hamburguer.png')!important;
+    }
+    .align-items-end-1{
+        align-items: center;
+    }
+    .mt-6-1 {
+        margin-top: 2rem !important;
+    }
+    .mb-5-1{
+        margin-bottom: 2rem !important;
+    }
+    .btn-border{
+        width: 80%;
+    }
+    .text-justify-576{
+        text-align: justify !important;
+    }
+    .text-center-576{
+        text-align: center !important;
+    }
+    .text-justify-575{
+        text-align: justify !important;
+    }
+    .text-center-575{
+        text-align: center !important;
+    }
+    .div-bottom{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .div-bottom-1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .img-contacto{
+        height: 40px;
+        width: 40px;
+    
+    }
+    .fs-3 {
+        font-size: 1.3rem!important;
+    }
+    .fs-7{
+        font-size: 0.7rem!important;
+    }
+    #div-footer a{
+        line-height: 1.15;
+    }
+    .d-flex-2{
+        display: block;
+    }
+    .d-none-575{
+        display: none;
+    }
+    .p-575{
+        text-align: center;
+    }
+    .pe-4-1 {
+        padding-right: 0px!important;
+    }
+    #img-logos img{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .iconos-contacto div{
+        display: flex; 
+        justify-content: center;
+    }
+    .iconos-contacto a{
+        text-align: center;
+
+    }
+    .img-izquierda{
+        position: static; 
+        width: 100%; 
+        height: 300px; 
+        background-image: url('../image/Recurso\ 3.png'); 
+        background-size: cover; 
+        background-position: top left;
+    }
+    .img-derecha{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/Recurso 2.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .vh-100{
+        height: auto !important;
+    }
+
+
+
+    /*seccion soluciones*/
+
+
+    #segmento-soluciones{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .fs-titulos-acordeon{
+        font-size: 20px;
+    }
+    .fs-titulos-30{
+        font-size: 14px;
+    }
+    #img-auditoria, #img-consultoria, #img-asesoria, #img-infra, #img-creatividad{
+        margin-top: 15px;
+    }
+    .container_img{
+        right: -50%;
+        bottom: -90%;
+    }
+    .accordion-button{
+        min-height: 69px;
+    }
+    
+
+    /*seccion asesoria fiscal*/
+    
+    .titulos-fiscal{
+        font-size: 25px;
+    }
+    .fs-fiscal-text{
+        font-size: 16px;
+    }
+    .espaciado-fiscal{
+        margin-bottom: 1rem !important;
+    }
+
+
+
+
+    /*seccion auditoria*/
+
+
+
+    .icon-auditoria {
+        margin-bottom: 1rem;
+    }
+
+
+
+    /*seccion integrate con nosotros*/
+
+    .mt-c10-575{
+        margin-top: calc(var(--bs-gutter-x) * 1);
+    }
+
+    
+    /*seccion integrate con nosotros*/
+    .vh-10{
+        height: 6vh;
+    }
+    
+
+     /*seccion desarrollo profesional*/
+     .btn-desarrollo a{
+        min-width: 100%;
+    }
+    
+    .img-edu{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/educacion.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .img-material{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/material.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .img-social{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/social.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .img-valores{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/valores.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .img-logros{
+        position: static; 
+        width: 100%; 
+        height: 300px;
+        background-image: url('../image/integrate/logros.png'); 
+        background-size: cover; 
+        background-position: center;
+    }
+    .vh-40{
+        height: auto !important;
+    }
+
+
+    /*seccion vacante para asesor fiscal*/
+    .img-vac-fis{
+        position:static;
+        width: 100%; 
+        height: 300px; 
+        background-image: url('../image/integrate/vacante-fiscal.png');
+        background-size: cover; 
+        background-position: center;
+        margin-top: 15px;
+    }
+    .ml-archivo{
+        margin-left: 10%;
+    }
+    .fs-requisitos{
+        font-size: 15px;
+    }
+
+    /*seccion vacante ingeniero civil*/
+    .img-vac-civil{
+        position:static;
+        width: 100%; 
+        height: 300px; 
+        background-image: url('../image/integrate/vacante-civil.png');
+        background-size: cover; 
+        background-position: center;
+        margin-top: 15px;
+    }
+
+    /*seccion nuestros clientes*/
+    .img-servi-calidad{ 
+        height: 30vh; 
+        background-image: url('../image/nosotros/cliente-calidad-1.png');
+        background-size: cover; 
+        background-position: center;
+        margin-top: 20px;    
+    }
+    .img-izq-calidad{
+        height: 30vh; 
+        background-image: url('../image/nosotros/cliente-izq-calidad.png'); 
+        background-size: cover; 
+        background-position: center;
+        margin-bottom: 20px;
+    }
+    .fs-titulos-cliente{
+        font-size: 30px;
+    }
+    .columnas{
+        column-count: 1; /* número de columnas */
+        column-gap: 50px; /* ancho de columnas */
+        
+    }
+    .mt-clientes{
+        margin-top: 1rem !important;
+    }
+    .division-azul{
+        width: 30%;
+        height: 3px;
+        background-color: #3273f5;
+        margin-top: 15px;
+    }
+
+    /*seccion nuestros profesionales*/
+    .ml-30{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .br-991{
+        display: block;
+    }
+
+    /*seccion nosotros*/
+    .img-resp-1{
+        height: 50vh;
+        margin-bottom: 1rem;
+    }
+    .img-resp-2{
+        height: 50vh;
+        margin-top: 1rem;
+    }
+    .mt-5-576{
+        margin-top: 3rem;
+    }
+    .mt-4-576{
+        margin-top: 2.5rem !important;
+    }
+    .mt-3-576{
+        margin-top: 2rem;
+    }
+    .btn-espacio{
+        height: 15%;
+    }
+
+    /*seccion nosotros*/
+    .titulos-nosotros{
+        font-size: 30px;
+    }
+    .nombre-directivos{
+        font-size: 20px;
+    }
+    .esp-cultura{
+        margin-top: 2rem;
+    }
+   
+    
+    
+
+}
+
+
+
+
+
+
+
+

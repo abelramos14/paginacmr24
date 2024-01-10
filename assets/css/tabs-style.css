@@ -1,0 +1,387 @@
+
+::selection {
+    background: #020c3c;
+    color: #fff;
+  }
+  .container .topic {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .content {
+    /*display: flex;
+    align-items: center;
+    justify-content: space-between;*/
+  }
+  .content .list {
+    /*display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 50px;*/
+    position: relative;
+  }
+  .div-list{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 12;
+  }
+  .content .list label {
+    /*height: 60px;*/
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.25;
+    cursor: pointer;
+    /*padding-left: 25px;*/
+    transition: all 0.5s ease;
+    color: #000;
+    /*z-index: 12;*/
+    width: 100% ;
+  }
+  #contabilidad:checked ~ .list label.contabilidad,
+  #nominas:checked ~ .list label.nominas,
+  #asesoria-fiscal:checked ~ .list label.asesoria-fiscal,
+  #defensa-fiscal:checked ~ .list label.defensa-fiscal,
+  #control-financiero:checked ~ .list label.control-financiero,
+  #necesito-asesoramiento-1:checked ~ .list label.necesito-asesoramiento-1 {
+    color: #fff;
+  }
+  #contabilidad:checked ~ .list label.contabilidad i,
+  #nominas:checked ~ .list label.nominas i,
+  #asesoria-fiscal:checked ~ .list label.asesoria-fiscal i,
+  #defensa-fiscal:checked ~ .list label.defensa-fiscal i,
+  #control-financiero:checked ~ .list label.control-financiero i,
+  #necesito-asesoramiento-1:checked ~ .list label.necesito-asesoramiento-1 i {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+  .content .list label:hover {
+    color: #000;
+  }
+  .content .slider {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    /*border-radius: 12px;*/
+    background: #020c3c;
+    transition: all 0.4s ease;
+    z-index: -11;
+  }
+  #contabilidad:checked ~ .list .slider {
+    top: 0;
+  }
+  #nominas:checked ~ .list .slider {
+    top: 50px;
+  }
+  #asesoria-fiscal:checked ~ .list .slider {
+    top: 100px;
+  }
+  #defensa-fiscal:checked ~ .list .slider {
+    top: 150px;
+  }
+  #control-financiero:checked ~ .list .slider {
+    top: 200px;
+  }
+  #necesito-asesoramiento-1:checked ~ .list .slider {
+      top: 250px;
+    }
+  .content .text-content {
+    /*width: 80%;
+    height: 100%;*/
+  }
+  .content .text {
+    display: none;
+  }
+  .content .text .title {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .content .text p {
+    text-align: justify;
+  }
+  .content .text-content .contabilidad {
+    display: block;
+  }
+  #contabilidad:checked ~ .text-content .contabilidad,
+  #nominas:checked ~ .text-content .nominas,
+  #asesoria-fiscal:checked ~ .text-content .asesoria-fiscal,
+  #defensa-fiscal:checked ~ .text-content .defensa-fiscal,
+  #control-financiero:checked ~ .text-content .control-financiero,
+  #necesito-asesoramiento-1:checked ~ .text-content .necesito-asesoramiento-1 {
+    display: block;
+  }
+  #nominas:checked ~ .text-content .contabilidad,
+  #asesoria-fiscal:checked ~ .text-content .contabilidad,
+  #defensa-fiscal:checked ~ .text-content .contabilidad,
+  #control-financiero:checked ~ .text-content .contabilidad,
+  #necesito-asesoramiento-1:checked ~ .text-content .contabilidad {
+    display: none;
+  }
+  .content input {
+    display: none;
+  }
+  .list i{
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
+
+
+
+  /*seccion Auditorias*/
+
+  
+  #financiero:checked ~ .list label.financiero,
+  #efectos-fiscales:checked ~ .list label.efectos-fiscales,
+  #gubernamental:checked ~ .list label.gubernamental,
+  #forense:checked ~ .list label.forense,
+  #partidos-politicos:checked ~ .list label.partidos-politicos,
+  #necesito-asesoramiento-3:checked ~ .list label.necesito-asesoramiento-3 {
+    color: #fff;
+  }
+  #financiero:checked ~ .list label.financiero i,
+  #efectos-fiscales:checked ~ .list label.efectos-fiscales i,
+  #gubernamental:checked ~ .list label.gubernamental i,
+  #forense:checked ~ .list label.forense i,
+  #partidos-politicos:checked ~ .list label.partidos-politicos i,
+  #necesito-asesoramiento-3:checked ~ .list label.necesito-asesoramiento-3 i {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+  
+  #financiero:checked ~ .list .slider {
+    top: 0;
+  }
+  #efectos-fiscales:checked ~ .list .slider {
+    top: 50px;
+  }
+  #gubernamental:checked ~ .list .slider {
+    top: 100px;
+  }
+  #forense:checked ~ .list .slider {
+    top: 150px;
+  }
+  #partidos-politicos:checked ~ .list .slider {
+    top: 200px;
+  }
+  #necesito-asesoramiento-3:checked ~ .list .slider {
+      top: 250px;
+    }
+  
+  .content .text-content .financiero {
+    display: block;
+  }
+  #financiero:checked ~ .text-content .financiero,
+  #efectos-fiscales:checked ~ .text-content .efectos-fiscales,
+  #gubernamental:checked ~ .text-content .gubernamental,
+  #forense:checked ~ .text-content .forense,
+  #partidos-politicos:checked ~ .text-content .partidos-politicos,
+  #necesito-asesoramiento-3:checked ~ .text-content .necesito-asesoramiento-3 {
+    display: block;
+  }
+  #efectos-fiscales:checked ~ .text-content .financiero,
+  #gubernamental:checked ~ .text-content .financiero,
+  #forense:checked ~ .text-content .financiero,
+  #partidos-politicos:checked ~ .text-content .financiero,
+  #necesito-asesoramiento-3:checked ~ .text-content .financiero {
+    display: none;
+  }
+
+
+  /*seccion infraestructura*/
+
+  
+  #tecnica:checked ~ .list label.tecnica,
+  #legal:checked ~ .list label.legal,
+  #construccion:checked ~ .list label.construccion,
+  #necesito-asesoramiento-4:checked ~ .list label.necesito-asesoramiento-4 {
+    color: #fff;
+  }
+  #tecnica:checked ~ .list label.tecnica i,
+  #legal:checked ~ .list label.legal i,
+  #construccion:checked ~ .list label.construccion i,
+  #necesito-asesoramiento-4:checked ~ .list label.necesito-asesoramiento-4 i {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+  
+  #tecnica:checked ~ .list .slider {
+    top: 0;
+  }
+  #legal:checked ~ .list .slider {
+    top: 50px;
+  }
+  #construccion:checked ~ .list .slider {
+    top: 100px;
+  }
+  #necesito-asesoramiento-4:checked ~ .list .slider {
+      top: 150px;
+    }
+  
+  .content .text-content .tecnica {
+    display: block;
+  }
+  #tecnica:checked ~ .text-content .tecnica,
+  #legal:checked ~ .text-content .legal,
+  #construccion:checked ~ .text-content .construccion,
+  #necesito-asesoramiento-4:checked ~ .text-content .necesito-asesoramiento-4 {
+    display: block;
+  }
+  #legal:checked ~ .text-content .tecnica,
+  #construccion:checked ~ .text-content .tecnica,
+  #necesito-asesoramiento-4:checked ~ .text-content .tecnica {
+    display: none;
+  }
+
+
+ /*seccion gubernamental*/
+
+  
+ #asesoria-gubernamental:checked ~ .list label.asesoria-gubernamental,
+ #contabilidad-gubernamental:checked ~ .list label.contabilidad-gubernamental,
+ #control-interno:checked ~ .list label.control-interno,
+ #defensa-legal:checked ~ .list label.defensa-legal,
+ #consultoria-fiscal:checked ~ .list label.consultoria-fiscal,
+ #capacitacion:checked ~ .list label.capacitacion,
+ #auditorias-gubernamentales:checked ~ .list label.auditorias-gubernamentales,
+ #necesito-asesoramiento:checked ~ .list label.necesito-asesoramiento {
+   color: #fff;
+ }
+ #asesoria-gubernamental:checked ~ .list label.asesoria-gubernamental i,
+ #contabilidad-gubernamental:checked ~ .list label.contabilidad-gubernamental i,
+ #control-interno:checked ~ .list label.control-interno i,
+ #defensa-legal:checked ~ .list label.defensa-legal i,
+ #consultoria-fiscal:checked ~ .list label.consultoria-fiscal i,
+ #capacitacion:checked ~ .list label.capacitacion i,
+ #auditorias-gubernamentales:checked ~ .list label.auditorias-gubernamentales i,
+ #necesito-asesoramiento:checked ~ .list label.necesito-asesoramiento i {
+   visibility: visible !important;
+   opacity: 1 !important;
+   transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ #asesoria-gubernamental:checked ~ .list .slider {
+   top: 0;
+ }
+ #contabilidad-gubernamental:checked ~ .list .slider {
+   top: 50px;
+ }
+ #control-interno:checked ~ .list .slider {
+   top: 100px;
+ }
+ #defensa-legal:checked ~ .list .slider {
+   top: 150px;
+ }
+ #consultoria-fiscal:checked ~ .list .slider {
+   top: 200px;
+ }
+ #capacitacion:checked ~ .list .slider {
+  top: 250px;
+}
+#auditorias-gubernamentales:checked ~ .list .slider {
+  top: 300px;
+}
+ #necesito-asesoramiento:checked ~ .list .slider {
+     top: 350px;
+   }
+ 
+ .content .text-content .asesoria-gubernamental {
+   display: block;
+ }
+ #asesoria-gubernamental:checked ~ .text-content .asesoria-gubernamental,
+ #contabilidad-gubernamental:checked ~ .text-content .contabilidad-gubernamental,
+ #control-interno:checked ~ .text-content .control-interno,
+ #defensa-legal:checked ~ .text-content .defensa-legal,
+ #consultoria-fiscal:checked ~ .text-content .consultoria-fiscal,
+ #capacitacion:checked ~ .text-content .capacitacion,
+ #auditorias-gubernamentales:checked ~ .text-content .auditorias-gubernamentales,
+ #necesito-asesoramiento:checked ~ .text-content .necesito-asesoramiento {
+   display: block;
+ }
+ #efectos-fiscales:checked ~ .text-content .asesoria-gubernamental,
+ #control-interno-gubernamental:checked ~ .text-content .asesoria-gubernamental,
+ #defensa-legal:checked ~ .text-content .asesoria-gubernamental,
+ #consultoria-fiscal:checked ~ .text-content .asesoria-gubernamental,
+ #capacitacion:checked ~ .text-content .asesoria-gubernamental,
+ #auditorias-gubernamentales:checked ~ .text-content .asesoria-gubernamental,
+ #necesito-asesoramiento:checked ~ .text-content .asesoria-gubernamental {
+   display: none;
+ }
+
+
+ /*seccion creatividad e innovacion*/
+
+  
+ #identidad-corporativa:checked ~ .list label.identidad-corporativa,
+ #social-media:checked ~ .list label.social-media,
+ #desarrollo-web:checked ~ .list label.desarrollo-web,
+ #publicidad-digital:checked ~ .list label.publicidad-digital,
+ #diseño-producto:checked ~ .list label.diseño-producto,
+ #desarrollo-apps:checked ~ .list label.desarrollo-apps,
+ #necesito-asesoramiento-2:checked ~ .list label.necesito-asesoramiento-2 {
+   color: #fff;
+ }
+ #identidad-corporativa:checked ~ .list label.identidad-corporativa i,
+ #social-media:checked ~ .list label.social-media i,
+ #desarrollo-web:checked ~ .list label.desarrollo-web i,
+ #publicidad-digital:checked ~ .list label.publicidad-digital i,
+ #diseño-producto:checked ~ .list label.diseño-producto i,
+ #desarrollo-apps:checked ~ .list label.desarrollo-apps i,
+ #necesito-asesoramiento-2:checked ~ .list label.necesito-asesoramiento-2 i {
+   visibility: visible !important;
+   opacity: 1 !important;
+   transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ #identidad-corporativa:checked ~ .list .slider {
+   top: 0;
+ }
+ #social-media:checked ~ .list .slider {
+   top: 50px;
+ }
+ #desarrollo-web:checked ~ .list .slider {
+   top: 100px;
+ }
+ #publicidad-digital:checked ~ .list .slider {
+   top: 150px;
+ }
+ #diseño-producto:checked ~ .list .slider {
+   top: 200px;
+ }
+ #desarrollo-apps:checked ~ .list .slider {
+  top: 250px;
+}
+ #necesito-asesoramiento-2:checked ~ .list .slider {
+     top: 300px;
+   }
+ 
+ .content .text-content .identidad-corporativa {
+   display: block;
+ }
+ #identidad-corporativa:checked ~ .text-content .identidad-corporativa,
+ #social-media:checked ~ .text-content .social-media,
+ #desarrollo-web:checked ~ .text-content .desarrollo-web,
+ #publicidad-digital:checked ~ .text-content .publicidad-digital,
+ #diseño-producto:checked ~ .text-content .diseño-producto,
+ #desarrollo-apps:checked ~ .text-content .desarrollo-apps,
+ #necesito-asesoramiento-2:checked ~ .text-content .necesito-asesoramiento-2 {
+   display: block;
+ }
+ #social-media:checked ~ .text-content .identidad-corporativa,
+ #desarrollo-web:checked ~ .text-content .identidad-corporativa,
+ #publicidad-digital:checked ~ .text-content .identidad-corporativa,
+ #diseño-producto:checked ~ .text-content .identidad-corporativa,
+ #desarrollo-apps:checked ~ .text-content .identidad-corporativa,
+ #necesito-asesoramiento-2:checked ~ .text-content .identidad-corporativa {
+   display: none;
+ }
+
+  
+  
