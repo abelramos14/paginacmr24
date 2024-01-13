@@ -149,11 +149,19 @@
 
 /*Modificaciones para el active del menú*/
 
-.active-menu:hover>a {
+.active-menu:hover>div>a {
     color: #3273f5;
 }
 
-.active-submenu:hover>a {
+.active-menu:hover>div>i {
+  color: #3273f5;
+}
+
+.active-submenu:hover>div>a {
+  color: #3273f5;
+}
+
+.active-submenu:hover>div>i {
   color: #3273f5;
 }
 
@@ -189,6 +197,22 @@
 }
 .link-menu:hover a{
   color: #3273f5!important;
+}
+
+.submenu-item:hover {
+  color: #3273f5!important;
+}
+.submenu-item:hover a{
+  color: #3273f5!important;
+}
+
+.ul-submenu {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.ul-submenu>li {
+  margin-right: 0px!important;
 }
 
 @media (max-width: 991px){
